@@ -1,4 +1,24 @@
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="3a383374-506b-442d-a227-37bb3b162269_x.png"
+  intent="WELCOME"
+  chat-title="Chatbot Assistant"
+  agent-id="5c7b4e0b-4943-43ef-98f7-e8295fbe7e23"
+  language-code="en"
+></df-messenger>
 
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #222222;
+   --df-messenger-button-titlebar-color: #222222;
+   --df-messenger-chat-background-color: #8c8c8c;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #4c4c4c;
+   --df-messenger-user-message: #4c4c4c;
+  }
+</style>
+
+## Sample Test for Google Assistant ##
 
 function saySSML(conv) {
   const ssml = '<speak>' +
